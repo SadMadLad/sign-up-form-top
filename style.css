@@ -141,12 +141,16 @@ label {
 input{
     background-color: var(--lighter-dark);
     font-family: 'Poppins', 'Roboto', sans-serif;
+    font-size: 20px;
     color: white;
-    height: 25px;
+    height: 30px;
     width: 250px;
 
     border: 0.5px white solid;
     border-radius: 5px;
+}
+input:hover {
+    border: 1px var(--neon-cyan) solid;
 }
 .center {
     padding: 20px 50px;
@@ -194,6 +198,10 @@ button {
     color: var(--neon-cyan);
 
     margin: 30px 50px;
+}
+button:hover {
+    background-color: var(--neon-cyan);
+    color: black;
 }
 .lower > p {
     padding: 0 0 0 50px;
