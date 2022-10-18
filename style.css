@@ -131,11 +131,72 @@ main {
 }
 
 /*Form*/
-.central > h1 {
-    font-size: 2rem;
-    font-weight: 800;
+label, input {
+    display: block;
+}
+label {
+    color: #dcdedc;
+    margin: 1px 0;
+}
+input{
+    background-color: var(--lighter-dark);
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    color: white;
+    height: 25px;
+    width: 250px;
 
-    padding: 25px 50px;
+    border: 0.5px white solid;
+    border-radius: 5px;
+}
+.center {
+    padding: 20px 50px;
+}
+.center > h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.form-section {
+    display: flex;
+    gap: 85px;
+
+    letter-spacing: 1.5px;
+    font-weight: 300;
+
+    margin: 25px 0px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+
+    align-items:flex-start;
+    justify-content: end;
+
+    font-size: 30px;
+
+    box-sizing: border-box;
+}
+.upper-text {
+    padding: 0 0 40px 40px;
+}
+.lower {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+button {
+    max-width: 150px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: 3px solid var(--neon-cyan);
+    background-color: black;
+    color: var(--neon-cyan);
+
+    margin: 30px 50px;
+}
+.lower > p {
+    padding: 0 0 0 50px;
 }
 
 
